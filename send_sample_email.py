@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from dotenv import load_dotenv
 
-# Load environment variables
+
 load_dotenv('config.env')
 
 def send_sample_girlfriend_email():
